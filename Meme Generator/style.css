@@ -1,0 +1,68 @@
+div > h1, p {
+    text-align: center;
+}
+
+h1 {
+    background: linear-gradient(90deg, #f12323 0%, #5c54e9 75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: brush script MT;
+    font-size: 3em;
+}
+
+P {
+    font-family: century gothic;
+}
+
+
+label, input {
+   display: inline-block;
+   margin: 10px;
+}
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 150px;
+    margin-left: 90px;
+}
+
+input {
+    width: 1100px;
+    background-color: rgb(218, 248, 220);
+}
+
+.info {
+    line-height: 3em;
+}
+
+
+button {
+    position: relative;
+    left: 90%;
+    background-color: rgb(254, 124, 124);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(170, 224, 183);
+}
+
+.top {
+    background-color: rgb(203, 227, 247);
+    background-size: cover;
+    height: 50vh;
+    padding: 25px 10px;
+    margin: -20px;
+}
+
+#newDiv {
+    height: 500px ;
+    width: 500px;
+    border: 1px solid white;
+}
+
+

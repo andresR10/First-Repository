@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+
+   
+</head>
+
+<body>
+    <div class="top">
+    <h1>Tailor Made Meme-Sculptures</h1>
+    <p><i>Fill out the form with your whiz meme ideas!</i></p>
+
+    
+    <form action="#" id="info">
+       <label for="URL">Image URL</label>
+        <input type="text" name="url" placeholder="Whats the URL for your image?" id="image-URL"> <br> 
+        <label for="topText">Top text</label>
+        <input type="text" name="top text" placeholder="The text on the top of your masterpiece goes here!" id="topText" autofocus> <br>
+        <label for="bottomText">Bottom Text</label>
+        <input type="text" name="bottom text" placeholder="The text on the bottom of your masterpiece goes here!" id="bottomText"> <br> 
+        <button type="submit" value="add meme" id="load-button">Add Meme</button> 
+       
+        <hr>
+        </div>
+       
+    </form> 
+
+    <canvas id="canvas"></canvas>
+   
+    <div id="newDiv">
+        
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html> 
+
+
